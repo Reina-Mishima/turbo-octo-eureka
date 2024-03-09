@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+
+<center>
+<h2>Welcome!</h4>
+<h4>I want to know more about you! Why don't yout tell me something about yourself?</h6>
+
+<button onclick="revealButton()">Click me!</button>
+
+<p id="demo"></p>
+</center>
+<script>
+    function revealButton() {
+        let name = prompt("What's your name?", "Enter your name here");
+        let age = prompt("How old are you?", "Enter your age here");
+        let strand = prompt("What's your strand?", "Enter your strand here: ICT, ABM, Stem, GAS, HUMSS");
+        if (name != null);
+        if (age != null);
+        if (strand != null){
+    document.getElementById("demo").innerHTML =
+    "Hello " + name + "! I believe you are " + age + " years old, am I right? and I reckon your strand is " +
+    strand + ", is it not?"
+        }
+    }
+</script>
+
+</body>
+</html>
